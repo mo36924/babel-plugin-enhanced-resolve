@@ -1,6 +1,6 @@
 {
   "name": "@mo36924/babel-plugin-enhanced-resolve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "babel-plugin-enhanced-resolve",
   "keywords": [],
   "author": "",
@@ -18,9 +18,6 @@
   },
   "module": "./dist/index.mjs",
   "main": "./dist/index.js",
-  "bin": {
-    "babel-plugin-enhanced-resolve": "dist/bin.js"
-  },
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -130,6 +127,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@mo36924/build": "^1.0.5"
+    "@mo36924/build": "^1.0.6"
   }
 }
